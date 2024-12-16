@@ -70,3 +70,34 @@ button {
     border-radius: 8px;
 }
 
+h2 {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+    text-align: center;
+}
+
+.card-container {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+}
+
+.card {
+    width: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.image {
+    width: 100px;
+    height: 100px;
+    border: 2px solid #3882F6;
+    border-radius: 10px;
+}
+
+.card p {
+    text-align: center;
+}
